@@ -46,8 +46,8 @@ public class IsPrime {
 				// Set the flag as true when there is no remainder
 						flag=true;
 				// break the iterator
-						//What happens here if no break is added as we're anyway terminating the for loop after flag?
-						
+						//What happens here if no break is added as we're anyway terminating the for loop after the flag?
+						break; //For example, If the break is added for the value 35, 35%2,3,4, "5" itself will give the result 0, and it won't proceed further and when the break is not added, Even though we get the result at 5, It continues till the loop ends that is till 34 
 					}
 			}
 
