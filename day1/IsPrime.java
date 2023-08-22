@@ -39,7 +39,7 @@ public class IsPrime {
 
 			// Iterate from 2 to half of the input a/2 or a-1, Both works
 
-			for (int i = 2; i< a-1; i++) {
+			for (int i = 2; i<=a-1; i++) {
 				
 				// Divide the input with each for loop variable and check the remainder
 					if (a%i==0) {
